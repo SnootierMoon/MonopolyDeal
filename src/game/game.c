@@ -8,11 +8,20 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ *
+ *  THIS FILE IS IN AN EARLY DEVELOPMENT STAGE
+ *  THE PURPOSE OF THIS FILE IS TO GET A WORKING GAME FUNCTIONALLY RUNNING
+ *  THIS FILE WILL BE COMPLETELY REFACTORED LATER
+ *
+ */
+
 const unsigned INVENTORY_DECK = 0;
 const unsigned INVENTORY_SHOP = 1;
 const unsigned INVENTORY_HAND = 0;
 const unsigned INVENTORY_PROPERTIES = 1;
 const unsigned INVENTORY_BANK = 2;
+
 
 #define card_count (108)
 struct {
